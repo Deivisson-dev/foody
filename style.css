@@ -6,5 +6,32 @@
 }
 
 body{
-    background-color: chartreuse;
+    background-color: #12274F;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.img-logo{
+    width: 145.3px;
+    height: 56px;
 }
