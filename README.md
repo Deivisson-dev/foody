@@ -1,4 +1,4 @@
-# 🍔 Rick and Morty
+# 🍔 Foody
 
 <img src="/img/image.png"/>
 
