@@ -8,7 +8,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Responsividade em smartphone.
+- [x] Responsividade em smartphones.
 
 ## 🤝 Colaboradores:
 
