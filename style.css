@@ -10,6 +10,11 @@ body{
     width: 100vw;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -25,7 +30,6 @@ nav{
 
 a{
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     font-size: 24px;
     color: white;
     text-decoration: none;
@@ -35,3 +39,73 @@ a{
     width: 145.3px;
     height: 56px;
 }
+
+.appe{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 71px;
+    color: #FFFFFF;
+}
+
+.satis{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+
+.div-span{
+    margin-left: 229px;
+    position: absolute;
+    top: 312px;
+    left: 44px;
+}
+
+
+.img-seta{
+    width: 417.9px;
+    height: 370.39px;
+    position: absolute;
+    top: 292px;
+    left: 138px;
+}
+
+.botao-by{
+    width: 356px;
+    height: 96px;
+    position: absolute;
+    top: 518px;
+    left: 262px;
+}
+
+.img-burger{
+    width: 341.25px;
+    height: 328.23px;
+    position: absolute;
+    right: 98px;
+    top: 282px;
+}
+
+.img-elipse{
+    width: 338px;
+    height: 338px;
+    position: absolute;
+    right: 64px;
+    bottom: 308px;
+} 
+
+.container-informations{
+    display: flex;
+    flex-direction: row;
+    gap: 601px;
+}
+
+.social_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 742px;
+    gap: 130px;
+}
+
