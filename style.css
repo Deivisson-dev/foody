@@ -155,3 +155,55 @@ a{
     }
 }
 
+
+@media screen and (min-width: 720px) and (max-width: 1115px){
+
+    .div-span {
+        margin-left: 229px;
+        position: absolute;
+        top: 119px;
+        left: -39px;
+    }
+
+    .img-seta {
+        width: 417.9px;
+        height: 370.39px;
+        position: absolute;
+        top: 115px;
+        left: 138px;
+    }
+
+    .botao-by {
+        width: 356px;
+        height: 96px;
+        position: absolute;
+        top: 340px;
+        left: 268px;
+    }
+
+    .img-burger {
+        width: 341.25px;
+        height: 328.23px;
+        position: absolute;
+        right: 195px;
+        top: 498px;
+    }
+
+    .img-elipse {
+        width: 338px;
+        height: 338px;
+        position: absolute;
+        right: 170px;
+        bottom: 101px;
+        margin: auto;
+    }
+
+    .social_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin-top: 778px;
+        gap: 130px;
+    }
+}
