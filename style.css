@@ -8,6 +8,7 @@
 body{
     background-color: #12274F;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .container{
@@ -107,6 +108,10 @@ a{
     text-align: center;
     margin-top: 742px;
     gap: 130px;
+}
+
+#insta, #facebook, #tele, #what{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1400px) {
