@@ -156,7 +156,7 @@ a{
 }
 
 
-@media screen and (min-width: 720px) and (max-width: 1115px){
+@media screen and (min-width: 768px) and (max-width: 1200px){
 
     .div-span {
         margin-left: 229px;
@@ -190,6 +190,7 @@ a{
     }
 
     .img-elipse {
+        display:none;
         width: 338px;
         height: 338px;
         position: absolute;
@@ -203,7 +204,7 @@ a{
         flex-direction: row;
         justify-content: center;
         text-align: center;
-        margin-top: 778px;
+        margin-top: 800px;
         gap: 130px;
     }
 }
