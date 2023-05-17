@@ -205,14 +205,3 @@ h2{
         right: 35px;
     }
 }
-
-@media screen and (min-width: 360px) and (max-width: 389px){
-    .rede-sociais{
-        position: initial;
-        margin-top: 24px;
-    }
-
-    .rede-sociais img{
-        padding-left: 37px;
-    }
-}
