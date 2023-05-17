@@ -186,11 +186,12 @@ h2{
     .rede-sociais{
         display: flex;
         flex-direction: row;
-        position: fixed;
+        position: initial;
+        margin-top: 93px;
     }
 
     .rede-sociais img{
-        padding-left: 40px;
+        padding-left: 36px;
     }
 }
 
