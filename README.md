@@ -25,7 +25,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/ClecioCawan.dev">
+      <a href="https://github.com/ClecioCawan">
         <img src="/img/121512079.jpeg" width="100px;" alt="image-clecio-github"><br>
         <sub>
           <b>ClecioCawan.dev</b>
