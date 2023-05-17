@@ -10,18 +10,20 @@ body{
     width: 100vw;
     overflow-x: hidden;
 }
-
-.container{
-    display: flex;
-    flex-direction: column;
-}
-
 header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+}
+
+button{
+    display: none;
+}
+
+.overlay{
+    display: none;
 }
 
 nav{
@@ -36,180 +38,181 @@ a{
     text-decoration: none;
 }
 
-.img-logo{
-    width: 145.3px;
-    height: 56px;
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 158px;
+    flex-wrap: wrap;
 }
 
-.appe{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 71px;
-    color: #FFFFFF;
+.botao-by{
+    padding-top: 14px;
 }
 
-.satis{
+.principal-buy{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 55px;
-    color: #FFFFFF;
+    color: white;
 }
 
-.div-span{
-    margin-left: 229px;
-    position: absolute;
-    top: 312px;
-    left: 44px;
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 71px;
+    color: white;
 }
-
 
 .img-seta{
     width: 417.9px;
     height: 370.39px;
-    position: absolute;
-    top: 292px;
-    left: 138px;
 }
 
-.botao-by{
-    width: 356px;
-    height: 96px;
-    position: absolute;
-    top: 518px;
-    left: 262px;
-}
-
-.img-burger{
-    width: 341.25px;
-    height: 328.23px;
-    position: absolute;
-    right: 98px;
-    top: 282px;
-}
-
-.img-elipse{
-    width: 338px;
-    height: 338px;
-    position: absolute;
-    right: 64px;
-    bottom: 308px;
-} 
-
-.container-informations{
-    display: flex;
-    flex-direction: row;
-    gap: 601px;
-}
-
-.social_links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.rede-sociais{
+    margin: 0 auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
     text-align: center;
-    margin-top: 742px;
-    gap: 130px;
+    padding-bottom: 10px;
 }
 
-#insta, #facebook, #tele, #what{
-    cursor: pointer;
+.rede-sociais img{
+    padding-left: 101px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 768px){
 
-    .social_links {
+    nav{
+        display: none;
+    }
+
+    button{
+        display: block;
+    }
+
+    .overlay{
+        display: block;
+        height: 100%;
+        width: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 9;
+        position: fixed;
+        left: 0;
+        top: 0;
+        overflow-x: hidden;
+        transition: all 0.5s;
+    }
+
+    .overlay-content{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a{
+        padding: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        color: #818181;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlay a:hover, .overlay a:focus{
+        color: white;
+    }
+
+    .overlay .closebtn{
+        position: absolute;
+        top: 25px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    .nav-button{
+        border: 0;
+        border-radius: 4px;
+        padding: 8px;
+        background-color: #174bac;
+        margin: 8px;
+        cursor: pointer;
+    }
+
+    .nav-button i{
+        color: white;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        margin-top: 19px;
+        gap: 36px;
+    }
+
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 49px;
+        color: white;
+    }
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 61px;
+        color: white;
+    }
+
+    .botao-by{
+        padding-top: 14px;
+        width: 259px;
+    }
+
+    .img-burguer{
+        width: 300px;
+    }
+
+    .rede-sociais{
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        margin-top: 498px;
-        gap: 130px;
+        position: fixed;
     }
-    .img-burger {
-        width: 341.25px;
-        height: 328.23px;
-        position: absolute;
-        right: 98px;
-        top: 161px;
-    }
-    .div-span {
-        margin-left: 229px;
-        position: absolute;
-        top: 207px;
-        left: 44px;
-    }
-    .img-seta {
-    width: 417.9px;
-    height: 370.39px;
-    position: absolute;
-    top: 178px;
-    left: 138px;
-    }
-    .botao-by {
-        width: 356px;
-        height: 96px;
-        position: absolute;
-        top: 407px;
-        left: 262px;
-    }
-    .img-elipse {
-    width: 338px;
-    height: 338px;
-    position: absolute;
-    right: 64px;
-    bottom: 181px;
+
+    .rede-sociais img{
+        padding-left: 40px;
     }
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 1200px){
-
-    .div-span {
-        margin-left: 229px;
-        position: absolute;
-        top: 119px;
-        left: -39px;
+@media screen and (max-height: 450px){
+    .overlay a{
+        font-size: 20px;
     }
 
-    .img-seta {
-        width: 417.9px;
-        height: 370.39px;
-        position: absolute;
-        top: 115px;
-        left: 138px;
+    .overlay .closebtn{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 389px){
+    .rede-sociais{
+        position: initial;
+        margin-top: 24px;
     }
 
-    .botao-by {
-        width: 356px;
-        height: 96px;
-        position: absolute;
-        top: 340px;
-        left: 268px;
-    }
-
-    .img-burger {
-        width: 341.25px;
-        height: 328.23px;
-        position: absolute;
-        right: 195px;
-        top: 498px;
-    }
-
-    .img-elipse {
-        display:none;
-        width: 338px;
-        height: 338px;
-        position: absolute;
-        right: 170px;
-        bottom: 101px;
-        margin: auto;
-    }
-
-    .social_links {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        margin-top: 800px;
-        gap: 130px;
+    .rede-sociais img{
+        padding-left: 37px;
     }
 }

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/img/burger.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>foody</title>
 </head>
 <body>
@@ -22,31 +24,38 @@
                 <a href="#">ABOUT US</a>
         
             </nav>
-        </header>
-        <main>
-            <div class="container-informations">
-                <div class="fonte_burger">
-                    <img src="img/Vector 1.png" alt="" class = "img-seta">
-                    <div class="div-span">
-                        <span class="satis">Satisfy your</span> <br>
-                        <span class="appe">Appetite!</span>
-                    </div>
-                    <br>
-                    <img src="img/Frame 4 (1).png" alt="" class = "botao-by">
-        
-                </div>
-                <div class = "interface_burger">
-                    <img src="img/Ellipse 1.png" alt="" class = "img-elipse">
-                    <img src="img/Burger.png" alt="" class = "img-burger">
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <div class="overlay-content">
+                    <a href="#">HOME</a>
+                    <a href="#">SERVICES</a>
+                    <a href="#">CONTACTS</a>
+                    <a href="#">ABOUT US</a>
                 </div>
             </div>
+            <button class="nav-button" onclick="openNav()" id="button-bar">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </button>
+        </header>
+        <main>
+            <section class="principal">
+                <div class="principal-buy">
+                    <h1>Satisfy your</h1>
+                    <h2>Appetite</h2>
+                    <img src="img/Frame 4 (1).png" alt="" class = "botao-by">
+                </div>
+                <img src="/img/Burger.png" alt="" class="img-burguer">
+            </section>
         </main>
-        <div class = "social_links">
+
+        <footer class="rede-sociais">
             <img src="img/facebook.png" alt="" id="facebook">
             <img src="img/instagram.png" alt="" id="insta">
             <img src="img/telegram.png" alt="" id="tele">
             <img src="img/whatsapp.png" alt="" id="what">
-        </div>
+        </footer>
     </div>
 </body>
 </html>
